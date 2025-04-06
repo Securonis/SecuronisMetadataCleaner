@@ -866,7 +866,7 @@ class MetadataCleaner(QMainWindow):
                 border-radius: 3px;
             }
             QCheckBox::indicator:checked {
-                image: url(tick.png);
+                image: url(/usr/share/icons/securonis/tick.png);
             }
             QCheckBox::indicator:hover {
                 background-color: rgba(76, 175, 80, 0.1);
@@ -888,7 +888,7 @@ class MetadataCleaner(QMainWindow):
                 border-radius: 3px;
             }
             QCheckBox::indicator:checked {
-                image: url(tick.png);
+                image: url(/usr/share/icons/securonis/tick.png);
             }
             QCheckBox::indicator:hover {
                 background-color: rgba(76, 175, 80, 0.1);
