@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sys
 import os
 import traceback
@@ -861,7 +862,7 @@ class MetadataCleaner(QMainWindow):
                 border-radius: 3px;
             }
             QCheckBox::indicator:checked {
-                image: url(tick.png);
+                image: url(/usr/share/securonis/icons/tick.png);
             }
             QCheckBox::indicator:unchecked {
                 image: none;
@@ -886,7 +887,7 @@ class MetadataCleaner(QMainWindow):
                 border-radius: 3px;
             }
             QCheckBox::indicator:checked {
-                image: url(tick.png);
+                image: url(/usr/share/securonis/icons/tick.png);
             }
             QCheckBox::indicator:unchecked {
                 image: none;
@@ -1221,4 +1222,4 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = MetadataCleaner()
     window.show()
-    sys.exit(app.exec_()) 
+    sys.exit(app.exec_())
